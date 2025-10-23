@@ -1,0 +1,60 @@
+:root {
+    --bg: #000;
+    
+
+}
+
+
+.vuong {
+    width: 50px;
+    height: 50px;
+    background: aqua;
+    margin-bottom: 10px;
+}
+
+#v3 {
+    margin: 25px 0;
+    width: 50px;
+    height: 50px;
+    transition: transform 50s ease-in-out;
+}
+
+#v31{
+    background: red;
+    width: 50px;
+    height: 25px;
+}
+
+#v32{
+    background: yellow;
+    width: 50px;
+    height: 25px;
+}
+
+#v1:hover {
+    transform: scale(1.05,1.05);
+    background: purple;
+}
+
+#v2:hover {
+    transform: translatey(5px);
+}
+
+#v2:active {
+    transform: translateY(-5px);
+}
+
+#v3:hover {
+    transform: rotate(5000turn);
+    background: aqua;
+}
+
+#v4:hover {
+    transform: scale(1.5,1.5);
+    background: purple;
+}
+
+#v5:hover {
+    transform: scale(1.5,1.5);
+    background: purple;
+}
