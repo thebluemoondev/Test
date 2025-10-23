@@ -26,4 +26,4 @@ class HourlyEmployee(Employee):
 nnt1 = FullTimeEmployee('nnt1', 1, 100000)
 print(nnt1.tinh_luong_thang())
 nnt2 = HourlyEmployee('nnt', 2, 20, 5000)
-print(nnt2.tinh_luong_thang())
+print(nnt2.tinh_luong_thang()) a
